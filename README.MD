@@ -1,6 +1,7 @@
 https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html
 
 # How to run
+
 ## Run with Hadoop standalone
 - step 1: check for java version (max java11)
 - step 2: check if hadoop is on path
@@ -21,5 +22,13 @@ hadoop jar build/libs/mapreduce-example-0.0.1-SNAPSHOT.jar com.nitrowise.mapredu
 # written in script
 cd scripts
 ./run-job.sh
+```
+
+## Run from IDEA
+- step 1: load project to IDEA and check java version (max 11)
+- step 2: run the application with config
+```
+class: com.nitrowise.mapreduce.TestMapreduceApp
+params: input output
 ```
 
