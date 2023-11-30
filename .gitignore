@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
-
-output
+build/
+output/
 
 # Log file
 *.log
